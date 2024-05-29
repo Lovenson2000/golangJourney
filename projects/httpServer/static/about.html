@@ -20,6 +20,16 @@
         <section>
             <h2>About Us</h2>
             <p>Learn more about our mission and values.</p>
+            <img src="/static/images/meeting.jpg" alt="About Us">
+        </section>
+        <section>
+            <h2>Contact Us</h2>
+            <form action="/submit-contact" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
         </section>
     </main>
     <footer>
